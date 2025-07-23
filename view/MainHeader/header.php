@@ -31,13 +31,20 @@
 	                </div><!--.site-header-shown-->
 	
 	                <div class="mobile-menu-right-overlay"></div>
+
+					<div class="dropdown dropdown-typical">
+							<a href="#" class="dropdown-toggle no-arr">
+								<span class="font-icon font-icon-home"></span>
+								<span class="lblcontactonomx"></span>
+							</a>
+                	</div>
 					
 					<div class="dropdown dropdown-typical">
-                    <a href="#" class="dropdown-toggle no-arr">
-                        <span class="font-icon font-icon-user"></span>
-                        <span class="lblcontactonomx"></span>
-                    </a>
-                </div>
+							<a href="#" class="dropdown-toggle no-arr">
+								<span class="font-icon font-icon-user"></span>
+								<span class="lblcontactonomx"></span>
+							</a>
+                	</div>
 
 	                
 	            </div><!--site-header-content-in-->
