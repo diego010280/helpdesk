@@ -1,3 +1,7 @@
+<?php
+	require_once("../../config/conexion.php"); 
+  	if(isset($_SESSION["usu_id"])){ 
+?>
 <!DOCTYPE html>
 <html>
 	<?php require_once("../MainHead/head.php");?>
@@ -14,9 +18,15 @@
 	<div class="page-content">
 		<div class="container-fluid">
 			Blank page.
-		</div><!--.container-fluid-->
-	</div><!--.page-content-->
+		</div>
+	</div>
 
 	<?php require_once("../MainJs/js.php"); ?>
 </body>
 </html>
+
+<?php
+ } else {
+	 header("Location:".Conectar::ruta()."index.php");
+}
+?>

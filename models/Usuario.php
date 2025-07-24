@@ -22,7 +22,7 @@
                     $resultado=$stmt->fetch();
 
                     if (is_array($resultado) and count($resultado)>0 ) {
-                        $_SESSION['usu_id']=$resultado["usuid"];
+                        $_SESSION['usu_id']=$resultado["usu_id"];
                         $_SESSION['usu_nom']=$resultado["usu_nom"]; 
                         $_SESSION['usu_ape']=$resultado["usu_ape"];
                           
