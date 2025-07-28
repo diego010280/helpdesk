@@ -32,11 +32,25 @@
 	
 	                <div class="mobile-menu-right-overlay"></div>
 
+<<<<<<< HEAD
 					<input type="hidden" id="user_idx" value="<?php echo $_SESSION['usu_id'] ?>">					
 					<div class="dropdown dropdown-typical">
 							<a href="#" class="dropdown-toggle no-arr">
 								<span class="font-icon font-icon-user"></span>
 								<span class="lblcontactonomx"><?php echo $_SESSION['usu_nom'].' '?><?php echo $_SESSION['usu_ape'] ?></span>
+=======
+					<div class="dropdown dropdown-typical">
+							<a href="#" class="dropdown-toggle no-arr">
+								<span class="font-icon font-icon-home"></span>
+								<span class="lblcontactonomx"></span>
+							</a>
+                	</div>
+					
+					<div class="dropdown dropdown-typical">
+							<a href="#" class="dropdown-toggle no-arr">
+								<span class="font-icon font-icon-user"></span>
+								<span class="lblcontactonomx"></span>
+>>>>>>> 3d7404276725f309cb2be04f5305ea9f1ac20ed0
 							</a>
                 	</div>
 

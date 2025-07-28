@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 	require_once("../../config/conexion.php"); 
   	if(isset($_SESSION["usu_id"])){ 
@@ -31,3 +32,6 @@
 	 header("Location:".Conectar::ruta()."index.php");
 }
 ?>
+=======
+<H1>NUEVO TICKET</H1>
+>>>>>>> 3d7404276725f309cb2be04f5305ea9f1ac20ed0
