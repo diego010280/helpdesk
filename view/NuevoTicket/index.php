@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 	<?php require_once("../MainHead/head.php");?>
-	<title>AnderCode</>::Home</title>
+	<title>AnderCode</>::Nuevo Ticket</title>
 </head>
 <body class="with-side-menu">
 
@@ -22,7 +22,7 @@
 	</div>
 
 	<?php require_once("../MainJs/js.php"); ?>
-	<script src="home.js"></script>
+	<script src="nuevoticket.js"></script>
 </body>
 </html>
 
