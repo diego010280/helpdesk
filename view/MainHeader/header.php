@@ -32,11 +32,14 @@
 	
 	                <div class="mobile-menu-right-overlay"></div>
 
+
 					<input type="hidden" id="user_idx" value="<?php echo $_SESSION['usu_id'] ?>">					
 					<div class="dropdown dropdown-typical">
 							<a href="#" class="dropdown-toggle no-arr">
 								<span class="font-icon font-icon-user"></span>
 								<span class="lblcontactonomx"><?php echo $_SESSION['usu_nom'].' '?><?php echo $_SESSION['usu_ape'] ?></span>
+
+
 							</a>
                 	</div>
 

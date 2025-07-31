@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 	<?php require_once("../MainHead/head.php");?>
-	<title>AnderCode</>::Nuevo Ticket</title>
+	<title>AnderCode</>::Home</title>
 </head>
 <body class="with-side-menu">
 
@@ -23,50 +23,54 @@
 						<div class="tbl-cell">
 							<h3>Nuevo Ticket</h3>
 							<ol class="breadcrumb breadcrumb-simple">
-								<li><a href="#">Home</a></li>
+								<li><a href="#">Inicio</a></li>
 								<li class="active">Nuevo Ticket</li>
 							</ol>
 						</div>
 					</div>
 				</div>
 			</header>
-
-			<div class="box-typical box-typical-padding">
+            
+            <div class="box-typical box-typical-padding">
 				<p>
-					Desde esta ventana podra generar nuevos tickets de Helpdesk:
+					Examples of standard form controls supported in an example form layout. Individual form controls automatically receive some global styling. All textual <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, and <code>&lt;select&gt</code>; elements with <code>.form-control</code> are set to <code>width: 100%;</code> by default. Wrap labels and controls in <code>.form-group</code> for optimum spacing. Labels in horizontal form require <code>.control-label</code> class.
 				</p>
 
-				<h5 class="m-t-lg with-border">Ingresar Información</h5>
+                <h5 class="m-t-lg with-border">Vertical Inputs</h5>
 
-				<div class="row">
+                <div class="row">
 					<div class="col-lg-6">
 						<fieldset class="form-group">
-							<label class="form-label semibold" for="exampleInput">Categorias</label>
+							<label class="form-label semibold" for="exampleInput">First Name</label>
 							<input type="text" class="form-control" id="exampleInput" placeholder="First Name">
 							<small class="text-muted">We'll never share your email with anyone else.</small>
 						</fieldset>
 					</div>
 					<div class="col-lg-6">
 						<fieldset class="form-group">
-							<label class="form-label" for="exampleInputEmail1">Titulo</label>
-							<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingreso Titulo">
+							<label class="form-label" for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" value="mail@mail.com">
 						</fieldset>
 					</div>
 					<div class="col-lg-12">
 						<fieldset class="form-group">
-							<label class="form-label" for="exampleInputPassword1">Descripcion</label>
+							<label class="form-label" for="exampleInputPassword1">Password</label>
 							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 						</fieldset>
 					</div>
 				</div><!--.row-->
+                        
+            </div>
 
-				
-			</div>
 		</div>
 	</div>
 
-	<?php require_once("../MainJs/js.php"); ?>
-	<script src="nuevoticket.js"></script>
+	<script src="../../js/lib/jquery/jquery.min.js"></script>
+	<script src="../../js/lib/tether/tether.min.js"></script>
+	<script src="../../js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="../../js/plugins.js"></script>
+
+<script src="../../js/app.js"></script>
 </body>
 </html>
 
